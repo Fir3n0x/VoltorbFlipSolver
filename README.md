@@ -18,7 +18,7 @@ Un solveur en Java pour le mini‑jeu **Voltorb Flip** (Pokémon HG/SS) qui c
 | Algorithme optimisé          | Back‑tracking + filtrage incrémental pour éviter l’explosion combinatoire.                                           |
 | 100 % Java                   | Aucune dépendance externe ; se compile avec un JDK standard.                                                         |
 
-> **Note :** Le projet est encore en développement. Les API et l’interface peuvent changer.
+> **Note :** Le projet est encore en développement mais complètement fonctionnel et utilisable. Les API et l’interface peuvent changer.
 
 ---
 
