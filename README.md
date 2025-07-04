@@ -3,7 +3,7 @@
 Un solveur en Java pour le mini‑jeu **Voltorb Flip** (Pokémon HG/SS) qui calcule en temps réel les cases les plus sûres / rentables à retourner.
 
 <p float="left">
-  <img src="img/voltorb_game.jpg" alt="Home" width="30%" />
+  <img src="img/voltorb_game.jpg" alt="Game" width="30%" />
 </p>
 
 ---
@@ -53,6 +53,33 @@ $ docker run -it voltorb-solver
 
 ---
 
+## Utilisation (GUI)
+
+Au lancement, le programme affiche une grille, il faut :
+* Configurer les colonnes et les lignes avec les bonnes valeurs.
+* Une fois configurer, il faut appuyer sur 'Set Values'.
+* Ensuite, appuyer sur 'Solve'.
+
+Il met ensuite à jour :
+
+* la liste des grilles encore possibles ;
+* le pourcentage qu’une case soit sûre ;
+* la grille compacte à jouer (recommandations).
+
+Exemple de sortie simplifiée :
+
+```
+PROBABILITÉS
+  0.10 0.05 0.00 0.25 0.60
+  0.05 0.05 0.05 0.45 0.40
+  ...
+
+Action conseillée → (ligne 0, col 4)
+```
+
+
+---
+
 ## Utilisation (CLI)
 
 Au lancement, le programme affiche la grille « proba » et demande :
@@ -85,8 +112,8 @@ Action conseillée → (ligne 0, col 4)
 ## Captures d'écran
 
 <p float="left">
-  <img src="img/solver_init.jpg" alt="Home" width="30%" />
-  <img src="img/solver_in_progress.jpg" alt="Live scan"   width="30%" />
+  <img src="img/solver_init.jpg" alt="Init" width="30%" />
+  <img src="img/solver_in_progress.jpg" alt="In Game"   width="30%" />
 </p>
 
 ---
