@@ -3,7 +3,7 @@
 Un solveur en Java pour le mini‑jeu **Voltorb Flip** (Pokémon HG/SS) qui calcule en temps réel les cases les plus sûres / rentables à retourner.
 
 <p float="left">
-  <img src="img/voltorb_game.jpg" alt="Game" width="30%" />
+  <img src="img/voltorb_game.png" alt="Game" width="30%" />
 </p>
 
 ---
@@ -112,8 +112,8 @@ Action conseillée → (ligne 0, col 4)
 ## Captures d'écran
 
 <p float="left">
-  <img src="img/solver_init.jpg" alt="Init" width="30%" />
-  <img src="img/solver_in_progress.jpg" alt="In Game"   width="30%" />
+  <img src="img/solver_init.png" alt="Init" width="30%" />
+  <img src="img/solver_in_progress.png" alt="In Game"   width="30%" />
 </p>
 
 ---
