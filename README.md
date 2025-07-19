@@ -130,6 +130,12 @@ Veuillez suivre le style de code existant (formatage IntelliJ par défaut) et aj
 
 ---
 
+## License
+
+Ce projet est publié sous une licence MIT.
+
+---
+
 ## Avertissement
 
 Ce projet n’est affilié ni soutenu par Nintendo, The Pokémon Company, Game Freak ou Creatures Inc. « Pokémon ».
